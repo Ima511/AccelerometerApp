@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp"
+    >
+
+    <Button
+        android:id="@+id/button_acclerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelorometer Sensor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        />
+
+ <Button
+        android:id="@+id/button_proximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proximity Sensor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        />
+
+ <Button
+        android:id="@+id/button_lightSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light Sensor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+</LinearLayout>
